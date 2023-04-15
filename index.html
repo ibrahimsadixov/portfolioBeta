@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/images/portfolioLogo.png" type="image/x-icon">
+    <title>Ibrahim Sadikhov</title>
+</head>
+
+<body id="body">
+    <div id="closer">
+
+    </div>
+    <nav id="nav">
+        <ul>
+            <a class="a" href="#home">
+                <li>Home</li>
+            </a>
+            <a class="a" href="#skills">
+                <li>Skills</li>
+            </a>
+            <a class="a" href="#resume">
+                <li>Resume</li>
+            </a>
+            <a class="a" href="#contact">
+                <li>Contact</li>
+            </a>
+            <p>
+                <li id="open-mode"> <i class=" mode moon fa-solid fa-moon"></i> </li>
+        </ul>
+
+
+        <i id="menu" class=" myMenu fa-solid fa-bars"></i>
+    </nav>
+    <div class="toggleMenu">
+        <div class="openMenuRelative">
+            <ul id="hide">
+                <a href="#home">
+                    <li>Home</li>
+                </a>
+                <a href="#skills">
+                    <li>Skills</li>
+                </a>
+                <a href="#resume">
+                    <li>Resume</li>
+                </a>
+                <a href="#contact">
+                    <li>Contacts</li>
+                </a>
+                <li id="open-mode"> <i id="mode-open" class=" mode fa-solid fa-moon"></i> </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <!-- home section started -->
+
+        <section class="home" id="home">
+
+
+            <div class="left">
+                <img src="./assets/images/content.png" alt="Portfolio">
+            </div>
+
+            <div class="right">
+                <div class="text">
+                    <h1>Ibrahim Sadikhov</h1>
+                    <h2 id="change-text"></h2>
+                    <p>Welcome to my front-end development portfolio page!
+
+                        I am a front-end developer with experience in designing and developing responsive and
+                        user-friendly websites and applications. I specialize in HTML, CSS, JavaScript, and related
+                        frontend technologies, and have worked with several frontend frameworks and libraries such as
+                        React and Bootstrap.
+
+                        In my portfolio, you'll find a collection of my projects, each showcasing my skills and
+                        expertise in front-end development.
+
+                        I believe in using clean and well-organized code, following best practices and industry
+                        standards, and ensuring that my projects are optimized for speed and performance.
+
+                        Thank you for visiting my portfolio, and I look forward to hearing from you soon!</p>
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <!-- home section finished -->
+
+        <!-- skills section started -->
+
+        <section id="skills">
+
+            <h2 class="header">My Skills</h2>
+
+
+
+            <div class="skillsPage">
+
+                <div class="left-skills">
+                    <div class="skill"> <i class="skillIcon fa-brands fa-html5"></i>
+                        <div class="code">
+                            <p class="code-text">&lt;p id = "front-end"&gt; HTML, CSS, JavaScript, React JS &lt;/p&gt
+                            </p>
+                        </div>
+                    </div>
+                    <div class="skill"> <i class="skillIcon fa-brands fa-css3-alt"></i>
+                        <div class="code">
+                            <p class="code-text">#front-end{ <br>
+                                color:red;
+                                font-weight:bold;
+                                font-size:2rem;
+                                <br>
+                                }
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right-skills">
+                    <div class="skill"><i class=" skillIcon fa-brands fa-js"></i>
+                        <div class="code">
+                            <p class="code-text">
+                                const frontEnd = document.getElementById("front-end") <br>
+                                frontEnd.addEventListener("click", ()=>{
+
+                                frontEnd.classList.toggle("back-end")
+
+                                });
+                                })
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="skill"><i class="skillIcon fa-brands fa-react"></i>
+                        <div class="code">
+                            <p class="code-text"> import React from 'react';
+
+                                function HelloWorld() {
+                                return (
+                                &lt; div&gt;
+                                &lt;h1&gt;Hello, World!&lt;/h1&gt;
+                                &lt;/div&gt;
+                                );
+                                }
+
+                                export default HelloWorld;
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- skills section finished -->
+
+        <!-- resume section start -->
+
+        <section id="resume">
+
+            <h2 class="header">My Resume</h2>
+            <div class="sections">
+                <div id="education" class="section current">Education</div>
+                <div id="languages" class="section">Languages</div>
+                <div id="professionalSkills" class="section">Development Skills</div>
+                <div id="hobbies" class="section">Hobbies</div>
+            </div>
+
+            <div class="skills-display">
+
+                <div class="hidden-skills education-skill visible ">
+                    <div class="line">
+
+                        <div class="circle">
+                            <div id="circle-first" class="object"></div>
+                            <div class="object-line"></div>
+                        </div>
+                        <div class="circle">
+                            <div id="circle-second" class="object"></div>
+                            <div class="object-line"></div>
+                        </div>
+                        <div class="circle">
+                            <div id="circle-third" class="object"></div>
+                            <div class="object-line"></div>
+                        </div>
+
+
+                    </div>
+                    <div class="education-text">
+
+                        <div id="education-first" class="education-sections education-school">
+                            <h2>High School</h2>
+                            <p>Astara School №1 (2009 - 2020) </p>
+                        </div>
+                        <div id="education-second" class=" education-sections education-school">
+                            <h2>Bachelor's Degree</h2>
+                            <p>Azerbaijan Technical University (2020 - 2024) </p>
+                        </div>
+                        <div id="education-third" class=" education-sections education-school">
+                            <h2>Web Development</h2>
+                            <p>Code Academy (2022 - 2023) </p>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+                <div class="hidden-skills languages-skill">
+
+                    <div class="languages-sections languages-aze">
+                        <h3>Azerbaijani</h3>
+                        <div class="bar">
+                            <div id="az-bar" class="lan-bar"></div>
+                        </div>
+                    </div>
+                    <div class="languages-sections languages-tr">
+                        <h3>Turkish</h3>
+                        <div class="bar">
+                            <div id="tr-bar" class="lan-bar "></div>
+                        </div>
+                    </div>
+                    <div class="languages-sections languages-en">
+                        <h3>English</h3>
+                        <div class="bar">
+                            <div id="en-bar" class="lan-bar"></div>
+                        </div>
+                    </div>
+                    <div class="languages-sections languages-tl">
+                        <h3>Talish</h3>
+                        <div class="bar">
+                            <div id="tl-bar" class="lan-bar "></div>
+                        </div>
+                    </div>
+                    <div class="languages-sections languages-ru">
+                        <h3>Russian</h3>
+                        <div class="bar">
+                            <div id="ru-bar" class="lan-bar "></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="hidden-skills professional-skill">
+
+                    <div class="professional-sections professional-html">
+                        <h3>HTML</h3>
+                        <div class="bar">
+                            <div id="html-bar" class="pro-bar "></div>
+                        </div>
+                    </div>
+
+                    <div class="professional-sections professional-css">
+                        <h3>CSS</h3>
+                        <div class="bar">
+                            <div id="css-bar" class="pro-bar "></div>
+                        </div>
+                    </div>
+                    <div class="professional-sections professional-js">
+                        <h3>JavaScript</h3>
+                        <div class="bar">
+                            <div id="js-bar" class="pro-bar"></div>
+                        </div>
+                    </div>
+                    <div class="professional-sections professional-react">
+                        <h3>React JS</h3>
+                        <div class="bar">
+                            <div id="react-bar" class="pro-bar "></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="hidden-skills hobbies-skill">
+
+
+
+
+
+                    <div class="skills-display">
+
+                        <div class="hidden-skills education-skill visible ">
+                            <div class="line">
+
+                                <div class="circle">
+                                    <div id="circle-first-hob" class="object"></div>
+                                    <div class="object-line"></div>
+                                </div>
+                                <div class="circle">
+                                    <div id="circle-second-hob" class="object"></div>
+                                    <div class="object-line"></div>
+                                </div>
+                                <div class="circle">
+                                    <div id="circle-third-hob" class="object"></div>
+                                    <div class="object-line"></div>
+                                </div>
+                                <div class="circle">
+                                    <div id="circle-fourth-hob" class="object"></div>
+                                    <div class="object-line"></div>
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="hobbies-text">
+
+                                <div id="hobbies-first" class=" hobbies-sections hobbies-cardistry">
+                                    <h2>Cardistry</h2>
+                                    <p>Cardistry is the art of manipulating playing cards in a visually impressive and
+                                        aesthetically pleasing manner. It involves creating elaborate and intricate card
+                                        movements, such as cuts, shuffles, fans, and spins, using a deck of cards as the
+                                        primary prop. Cardistry is often performed as a form of entertainment, as well
+                                        as a means of self-expression and creative exploration. It has gained popularity
+                                        in recent years as a subculture within the broader community of magic and card
+                                        games.</p>
+                                </div>
+                                <div id="hobbies-second" class="hobbies-sections hobbies-powerlifting">
+                                    <h2>Powerlifting</h2>
+                                    <p>Powerlifting is a strength sport that involves three main exercises: the squat,
+                                        bench press, and deadlift. The goal is to lift as much weight as possible in
+                                        each of these exercises. Competitors are divided into weight classes and are
+                                        given three attempts to lift their maximum weight in each exercise. The total
+                                        weight lifted across all three exercises is then used to determine the winner.
+                                        Powerlifting is a popular sport for both men and women, and competitions are
+                                        held at local, national, and international levels. Powerlifting requires a lot
+                                        of training, discipline, and dedication to improve strength and technique in the
+                                        three main exercises. </p>
+                                </div>
+                                <div id="hobbies-third" class=" hobbies-sections hobbies-reading">
+                                    <h2>Reading</h2>
+                                    <p> Book reading is the act of reading a written work that has been published in the
+                                        form of a book. It involves engaging with the text on the page and comprehending
+                                        the story, information, or ideas presented by the author. Book reading is a
+                                        popular form of entertainment, education, and personal development. It allows
+                                        individuals to expand their knowledge, broaden their perspectives, and stimulate
+                                        their imagination. Book reading can be done in various formats, including
+                                        physical books, e-books, and audiobooks, and it can be enjoyed by people of all
+                                        ages and backgrounds.</p>
+                                </div>
+
+                                <div id="hobbies-fourth" class=" hobbies-sections hobbies-chess">
+                                    <h2>Chess</h2>
+                                    <p>Chess is a strategic board game that is played by two players on a checkered
+                                        gameboard. Each player begins with sixteen pieces: one king, one queen, two
+                                        rooks, two knights, two bishops, and eight pawns. The objective of the game is
+                                        to checkmate the opponent's king, which means to put it under attack in a way
+                                        that it cannot escape capture. Players take turns moving their pieces across the
+                                        board according to specific rules, with the ultimate goal of capturing the
+                                        opponent's pieces and controlling the board. Chess is a highly strategic and
+                                        complex game that requires skill, planning, and strategic thinking. It is a
+                                        popular game worldwide, played by millions of people of all ages and skill
+                                        levels, and there are many international competitions and tournaments held each
+                                        year.</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+        </section>
+
+        <!-- resume section finished -->
+
+
+    </div>
+
+    <!-- contact section start -->
+    <section id="contact">
+        <h2 class="header">Contact Me</h2>
+        <div class="contactsPage">
+
+            <form id="form" action="https://formsubmit.co/11ibrahimsadixov@gmail.com" method="POST">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5501/Portfolio.htm#contact">
+                <input class="other-text" placeholder="Name" type="text" name="name" required>
+                <input class="other-text" placeholder="Surname" type="text" name="surname" required>
+                <input class="other-text" placeholder="Email" type="email" name="email" required>
+                <label for="Text"></label>
+                <textarea placeholder="Text" class="text-form" id="Text" name="Text" required></textarea>
+                <button class="button" id="btn" type="submit">Send</button>
+              </form>
+
+        </div>
+        <div class="links">
+
+            <a class="link" href="https://www.linkedin.com/in/ibrahimsadixov" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a class="link" href="https://github.com/ibrahimsadixov" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a class="link" href="https://www.instagram.com/ibrahim_sadixov/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+         
+        </div>
+     
+    </section>
+    <!-- contact section finished -->
+
+
+
+    <footer id="footer">
+        <p>© 2023. All rights reserved by Ibrahim Sadikhov</p>
+
+    </footer>
+
+    <script src="./assets/js/textChange.js"></script>
+    <script src="./assets/js/menu.js"></script>
+    <script src="./assets/js/resume.js"></script>
+    <script src="./assets/js/dark.js"></script>
+    <script src="./assets/js/skills.js"></script>
+    <script src="./assets/js/color.js"></script>
+
+    
+</body>
+
+</html>
